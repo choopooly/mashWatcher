@@ -11,12 +11,10 @@ var timerCheckpoints = {
 // TODO error handling
 // nice to have: PUT instead of GET
 module.exports = function (ctx, done) {
-
-  // TODO data cleaning (strings, cast numbers, etc.)
-  // TODO data validation
+  // TODO put ifttt as secret
   var recipe = ctx.data.recipe;
-  var timer = ctx.data.timer;
-  var temp = ctx.data.temp;
+  var timer = parseInt(ctx.data.timer);
+  var temp = parseInt(ctx.data.temp);
   var ifttt = ctx.data.ifttt;
   var carbon = ctx.data.carbon
 

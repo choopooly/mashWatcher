@@ -21,7 +21,7 @@ The **mash_watcher.js** (hosted on [webtask.io](webtask.io) is responsible for t
 
 ## Usage
 
-*mash_watcher.js** take the following 4 arguments.
+**mash_watcher.js** take the following 4 arguments.
 
 
 ```
