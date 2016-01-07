@@ -15,7 +15,7 @@ The idea for this project if to send a notification for every mashing step, and 
 
 The brewing controller send an http event every minute to mash_watcher.js
 
-The **mash_watcher.js** (hosted on [webtask.io](webtask.io) is responsible for triggering notifications when needed and forward the temperature stats.
+The **mash_watcher.js** (hosted on [webtask.io](https://webtask.io) is responsible for triggering notifications when needed and forward the temperature stats.
 
 [Grafana/Graphite](https://hub.docker.com/r/choopooly/grafana-graphite/) will handled the graphical visualization.
 
